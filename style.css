@@ -29,21 +29,19 @@ body {
     padding: 0;
     list-style: none;
 }
+
 .nav li {    
     margin: 1px 0;
     border: 1px solid #999;
     margin-top: 50px;
 }
-.nav li a {
+
+.nav li button {
     display: block;
     line-height: 3em;
-    width: 60%;
+    width: 100%;
     text-decoration: none;
 
-}
-
-a {
-	margin-top: 10px;
 }
 
 button{
@@ -92,4 +90,9 @@ button{
 
 .wrapper span {
 	margin-left: 20px;
+}
+
+.container img {
+	position: relative;
+	margin-left: 200px;
 }
